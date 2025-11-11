@@ -1,0 +1,8 @@
+[org.gnome.desktop.interface]
+cursor-size=24
+cursor-theme='Sweet-Cursors'
+enable-animations=true
+font-name='Fira Sans, 10'
+gtk-theme='BeautyLine'
+icon-theme='BeautyLine'
+toolbar-style='text'
