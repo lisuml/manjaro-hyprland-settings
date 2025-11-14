@@ -16,9 +16,4 @@ var5=${var1%%x*}
 
 sed -i "/monitor=/c\monitor= $var4" .config/hypr/hyprland.conf
 
-sed -i "s/USER/$USER/" .config/waybar/style.css
-
 sed -i "s|exec-once = .local/bin/mon.sh|#exec-once = .local/bin/mon.sh|" $HOME/.config/hypr/hyprland.conf
-
-sed -i "s|exec-once = garuda-welcome|#exec-once = garuda-welcome|" $HOME/.config/hypr/hyprland.conf
-
