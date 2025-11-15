@@ -1,43 +1,71 @@
+/* Główne okno */
 window {
-	border-radius: 10px;
-    background-color: rgba (0, 0, 0, 0.65);
-    color: #1d1f21
+    border-radius: 12px;
+    background-color: rgba(0, 0, 0, 0.85);
+    color: #e5e9f0;
+    padding: 8px;
 }
 
-/* search entry */
+/* Pole wyszukiwania */
 entry {
-    box-shadow: 0 0 6px 5px #2e3440;
-    background-color: rgba (0, 0, 0, 0.65)
+    margin: 4px 4px 10px 4px;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 8px;
+
+    background-color: rgba(46, 52, 64, 0.95);
+    color: #eceff4;
+    caret-color: #eceff4;
+
+    /* delikatny cień, żeby się odcinało od tła */
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.6);
 }
 
-button, image {
-    background-color: #FF2222;
+/* Tekst etykiet */
+label {
+    color: #e5e9f0;
+}
+
+/* Kafelki aplikacji */
+button {
     background: none;
     border: none;
+    border-radius: 10px;
     margin: 4px;
+    padding: 6px;
 
+    /* żeby klikany obszar był większy */
+    min-width: 64px;
 }
 
+/* Ikony w kafelkach */
+image {
+    margin: 4px;
+}
+
+/* Hover / focus – delikatne rozjaśnienie zamiast czerwonego prostokąta */
 button:hover {
-    background-color: rgba (255, 0, 0, 0.2)
+    background-color: rgba(255, 255, 255, 0.06);
 }
 
 button:focus {
-    background-color: rgba (225, 0, 0, 0.3);
+    background-color: rgba(255, 255, 255, 0.10);
 }
 
-/* in case you wanted to give category buttons a different look */
+/* Kategorie na górze, jeśli używasz */
 #category-button {
-    margin: 0 10px 0 10px
+    margin: 0 10px 0 10px;
+    border-radius: 999px;
 }
 
+/* Pinned / files – subtelne obramowanie */
 #pinned-box {
     padding-bottom: 5px;
-    border-bottom: 1px dotted gray
+    border-bottom: 1px dotted rgba(216, 222, 233, 0.3);
 }
 
 #files-box {
     padding: 5px;
-    border: 1px dotted gray;
-    border-radius: 15px
+    border: 1px dotted rgba(216, 222, 233, 0.25);
+    border-radius: 15px;
 }
