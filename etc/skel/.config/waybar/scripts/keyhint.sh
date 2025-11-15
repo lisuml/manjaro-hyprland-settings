@@ -4,7 +4,7 @@
 yad --width=530 --height=650 \
 --center \
 --fixed \
---title="Garuda Hyprland Keybindings" \
+--title="Manjaro Hyprland Keybindings" \
 --no-buttons \
 --list \
 --column=Key: \
@@ -13,7 +13,6 @@ yad --width=530 --height=650 \
 --timeout=60 \
 --timeout-indicator=right \
 "ESC" "close this app" "" "=" "modkey" "(set mod Mod4)" \
-"+Shift+g" "G-hyprland" "implement G-Hyprland" \
 "+enter/+t" "Terminal" "(foot)" \
 "" "Application Menu" "(wofi)" \
 "+Shift+d" "Full Launcher" "(nwggrid)" \
@@ -34,5 +33,4 @@ yad --width=530 --height=650 \
 "+Shift+Spacebar" "Float" "Toggle windows to float" \
 "+p" "Dwindle effect" "pseudo" \
 "+Shift+p" "Dwindle effect" "toggle split" \
-"+i" "Calamares" "Install Garuda Hyprland" \
 "" "" "     Window closed in 60 sec."\
