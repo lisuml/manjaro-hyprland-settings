@@ -55,6 +55,7 @@ background-color: rgba (0,0,0,0.75);
 border-radius: 5px;
 margin: 4px 4px 8px 4px;
 padding: 8px;
+color: @base04;
 }
 
 #inner-box {
